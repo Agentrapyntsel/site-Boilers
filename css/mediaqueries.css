@@ -132,9 +132,6 @@
 		text-align: center;
 		line-height: 1;
 	}
-	/* .header__menu-item:not(:last-child) {
-		margin-right: 13px;
-	} */
 	.header__container {
 		display: flex;
 		flex-direction: column;
@@ -166,5 +163,10 @@
 	}
 	.main__imageconteiner--text {
 		padding: 0 30px 20px 30px;
+	}
+}
+@media (max-width: 420px) {
+	.header__menu-list {
+		font-size: 0.9rem;
 	}
 }

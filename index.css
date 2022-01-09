@@ -112,17 +112,25 @@ body {
 	padding: 0 30px;
 }
 .main__imageconteiner--text-title {
-	background-image: url("images/fireanim.gif");
-	background-size: cover;
-	color: transparent;
-	-moz-background-clip: text;
-	-webkit-background-clip: text;
-	background-clip: text;
-	text-transform: uppercase;
+	animation: anime infinite 5s linear;
 	font-size: 2.6rem;
 	line-height: 0.75;
 	font-weight: 700;
 	padding-left: 40px;
+}
+@keyframes anime {
+	0% {
+		color: orange;
+	}
+	33% {
+		color: rgb(255, 102, 0);
+	}
+	66% {
+		color: rgb(255, 145, 0);
+	}
+	100% {
+		color: rgb(255, 81, 0);
+	}
 }
 .main__imageconteiner--text-text {
 	font-size: 1.7rem;
@@ -218,7 +226,12 @@ body {
 }
 
 /* FOOTER */
-.footer {
+
+#bg-image .lazy {
+	background-image: none;
+	background-color: black;
+}
+#bg-image {
 	background-image: url("images/footer.jpg");
 	background-size: cover;
 	background-position: center;
@@ -249,4 +262,35 @@ body {
 .footer__viber {
 	display: block;
 	margin: 0 auto;
+}
+.inox_cristal_rd {
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	color: #fff;
+	line-height: 48px;
+	border: 0px;
+	text-align: center;
+	width: 48px;
+	border-radius: 24px;
+	background: transparent;
+	background-image: -moz-radial-gradient(center bottom, circle cover, rgb(242, 169, 35) 20%, rgb(228, 53, 0) 80%);
+	background-image: -webkit-radial-gradient(center bottom, circle cover, rgb(242, 169, 35) 20%, rgb(228, 53, 0) 80%);
+	background-image: -o-radial-gradient(center bottom, circle cover, rgb(242, 169, 35) 20%, rgb(228, 53, 0) 80%);
+	display: block;
+	padding: 0px;
+	text-decoration: none;
+}
+.inox_cristal_rd_:before {
+	content: ".";
+	color: transparent;
+	line-height: 24px;
+	width: 40px;
+	margin-left: 4px;
+	margin-bottom: -24px;
+	background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+	background-image: -moz-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+	background-image: -o-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+	border-radius: 24px;
+	display: block;
 }
