@@ -1,13 +1,10 @@
 /*---- MEDIA-QUERIES------- */
 @media (min-width: 1366px) and (max-width: 1440px) {
-	.main__container-app {
-		width: 100%;
+	.main__image {
+		max-height: 525px;
 	}
 }
 @media (min-width: 2560px) {
-	.main__container-app {
-		width: 100%;
-	}
 	.header {
 		padding-left: 200px;
 		padding-right: 200px;
@@ -15,15 +12,12 @@
 	html {
 		font-size: 25px;
 	}
-	.products__fuel--img {
-		max-width: 200px;
-		max-height: 200px;
-	}
 	.products__image--img {
-		max-width: 550px;
+		max-width: 345px;
 	}
 	.products__decription {
 		max-width: 550px;
+		max-height: 525px;
 	}
 }
 @media (min-width: 3000px) {
@@ -40,7 +34,7 @@
 		max-height: 525px;
 	}
 	.products__image--img {
-		max-width: 700px;
+		max-width: 345px;
 	}
 	.products__decription {
 		max-width: 650px;
