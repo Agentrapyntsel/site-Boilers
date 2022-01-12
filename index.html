@@ -27,6 +27,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap" rel="stylesheet">
 	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js" defer></script>
 </head>
+<!-- --------------разобраться с гапом во всех местах -->
 
 <body>
 
@@ -161,7 +162,7 @@
 				</div>
 
 				<div class="products__towrap">
-					<div>
+					<div class="products__towrap--center">
 						<h1 class="products__title" id="ancor1">Твердотопливный котел с водяным контуром АОТВ-12-5</h1>
 						<div class="products__wrapper">
 							<div class="products__image">
@@ -192,7 +193,7 @@
 							</div>
 						</div>
 					</div>
-					<div>
+					<div class="products__towrap--center">
 						<h1 class="products__title">Твердотопливный котел с водяным контуром АОТВ-20</h1>
 						<div class="products__wrapper">
 							<div class="products__image" style="display:flex; flex-direction:column">
@@ -201,7 +202,7 @@
 									<img class="products__image--img" src="images/kotel.png" alt="изображение котла"
 										loading="lazy">
 								</picture>
-								<mark style="width:140px; margin-left:75px">*вертикальный</mark>
+								<mark style="width:180px; margin-left:75px">*вертикальный</mark>
 							</div>
 							<div class="products__decription">
 								<ul class="ingredients">
@@ -224,7 +225,7 @@
 							</div>
 						</div>
 					</div>
-					<div>
+					<div class="products__towrap--center">
 						<h1 class="products__title">Твердотопливный котел с водяным контуром АОТВ-30-1</h1>
 						<div class="products__wrapper">
 							<div class="products__image">
@@ -255,7 +256,7 @@
 							</div>
 						</div>
 					</div>
-					<div>
+					<div class="products__towrap--center">
 						<h1 class="products__title">Твердотопливный котел с водяным контуром АОТВ-50-1</h1>
 						<div class="products__wrapper">
 							<div class="products__image">
@@ -286,7 +287,7 @@
 							</div>
 						</div>
 					</div>
-					<div>
+					<div class="products__towrap--center">
 						<h1 class="products__title">Твердотопливный котел с водяным контуром АОТВ-75-1</h1>
 						<div class="products__wrapper">
 							<div class="products__image">
@@ -317,7 +318,7 @@
 							</div>
 						</div>
 					</div>
-					<div>
+					<div class="products__towrap--center">
 						<h1 class="products__title">Твердотопливный котел с водяным контуром АОТВ-95-1</h1>
 						<div class="products__wrapper">
 							<div class="products__image">
@@ -354,22 +355,21 @@
 
 				<article class="products__article">
 					<h1 class="products__article-title"> Котлы с водяным контуром </h1>
-					<p class="products__article-text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;При выборе отопительного
-						агрегата для обогрева частного дома многие
-						люди отдают предпочтение моделям с водяным контуром отопления. В отличие от обычных котлов модели
-						такого типа
-						оснащены внутренним теплообменником, где происходит нагрев теплоносителя, который циркулирует по
-						трубопроводной системе, перенося тепло во все жилые помещения. Удобство и практичность современных
+					<p class="products__article-text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;При выборе отопительной
+						системы для обогрева частного дома или производства стоит обратить внимание на котлы с водяным
+						контуром отопления. В отличие от обычных котлов модели
+						такого типа оснащены внутренним теплообменником, где происходит нагрев теплоносителя, который
+						циркулирует по
+						трубопроводной системе, перенося тепло во все помещения. Удобство и практичность современных
 						отопительных котлов с водяным контуром обуславливается высоким КПД, а также способностью оперативно
-						протапливать комнаты даже большой площади.
+						протапливать помещения даже большой площади.
 					</p>
 					<h1 class="products__article-title">Особенности котлов с водяным контуром</h1>
 					<p class="products__article-text">
-						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Если обычный котел представляет собой отопительный агрегат,
-						где тепло передается через стенки прибора
-						помещению, где он располагается, то модели с водяным контуром способны переносить тепло в разные
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Модели с водяным контуром способны переносить тепло в
+						разные
 						комнаты, находящиеся на значительном отдалении от котельной. Внутри котла с водяным контуром, помимо
-						топки, где происходит сгорание топлива (газ, дрова, уголь), имеется также герметичная камера в виде
+						топки, где происходит сгорание топлива (брикет, дрова, уголь), имеется также герметичная камера в виде
 						теплообменника.
 						В ней происходит непосредственный нагрев воды, которая при помощи циркуляционного насоса или
 						естественным путем (за счет физических свойств жидкости) начинает перемещаться по закрытой или
@@ -430,12 +430,12 @@
 						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1985.553258475868!2d23.79725638285374!3d53.714092591360014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46e078ce88f6cee9%3A0xbba157dfdb1419dd!2z0L_RgNC-0LXQt9C0INCf0YDQvtC80YvRgdC70L7QstGL0LkgNiwg0JPRgNC-0LTQvdCw!5e0!3m2!1sru!2sby!4v1641741595458!5m2!1sru!2sby"
 						width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 				</div>
-				<a href="#" class="inox_cristal_rd">^</a>
+				<a href="#" class="footer__btn-up">^</a>
 		</footer>
 
 	</div>
 
-
+	<script src="index.js"></script>
 
 </body>
 
