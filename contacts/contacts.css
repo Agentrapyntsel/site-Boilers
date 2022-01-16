@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap&rel=preconnect");
+body {
+	font-family: "Nunito", sans-serif;
+}
+.contacts {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.contacts__header--title {
+	margin-top: 70px;
+	text-align: center;
+	box-shadow: 0 5px 5px -5px #e8746b;
+	color: #e07e70;
+}
+.contacts__content {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-top: 70px;
+	margin-bottom: 70px;
+	gap: 40px;
+}
+.contacts__iconwrap {
+	text-align: center;
+}
+.contacts__content--time {
+	text-align: center;
+}
+a {
+	color: #1f1818;
+	font-size: 1.1rem;
+}
+.contacts__icon--title {
+	font-size: 1.2rem;
+	box-shadow: 0 5px 5px -5px #e8746b;
+}
+.btn__back {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	max-width: 200px;
+	margin: auto;
+	background-color: #dcaeb1;
+	border-radius: 20px;
+	padding: 10px;
+	font-size: 1.1rem;
+	color: #0f6070;
+	text-decoration: underline;
+	cursor: pointer;
+}
+.btn__back:hover {
+	transform: scale(1.1);
+}
+@media (min-width: 2000px) {
+	html {
+		font-size: 24px;
+	}
+	.btn__back {
+		max-width: 300px;
+	}
+}
