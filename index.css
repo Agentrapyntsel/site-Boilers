@@ -22,6 +22,7 @@ body {
 }
 .separate__div--title {
 	margin: 0;
+	color: #f7e99f;
 }
 
 /*------- HEADER------ */
@@ -47,13 +48,14 @@ body {
 }
 .header__logo-text {
 	margin: 0;
-	color: #ffffff;
+	color: #f7e99f;
 	font-size: 1.4rem;
 }
 .header__logo-text-small {
 	margin-top: 0;
 	font-family: "Caveat", cursive;
 	font-size: 1.4rem;
+	color: #f7e99f;
 }
 .header__menu-list {
 	display: flex;
@@ -71,7 +73,7 @@ body {
 	color: #ffffff;
 }
 .header__phone--link {
-	color: #ffffff;
+	color: #f7e99f;
 	text-decoration: none;
 }
 .header__menu-item {
@@ -79,7 +81,7 @@ body {
 }
 .header__menu-link {
 	text-decoration: none;
-	color: #ffffff;
+	color: #f7e99f;
 }
 .header__menu-link:hover {
 	box-shadow: 0 0 10px rgba(237, 70, 32, 0.981);

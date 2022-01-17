@@ -36,11 +36,10 @@ a {
 	box-shadow: 0 5px 5px -5px #e8746b;
 }
 .btn__back {
-	position: absolute;
-	bottom: 20px;
-	right: 20px;
+	display: flex;
+	align-self: flex-end;
 	max-width: 200px;
-	margin: auto;
+
 	background-color: #dcaeb1;
 	border-radius: 20px;
 	padding: 10px;
