@@ -128,6 +128,12 @@
 	.footer__menu-list {
 		padding: 0;
 		text-align: center;
+		gap: 10px;
+	}
+	.footer__phone {
+		display: flex;
+		flex-direction: column;
+		margin-top: 30px;
 	}
 	.products__title {
 		width: auto;
@@ -195,14 +201,15 @@
 }
 @media (max-width: 420px) {
 	.header__menu-list {
-		font-size: 0.9rem;
+		font-size: 0.8rem;
 	}
 	.products {
 		padding: 20px;
 	}
-}
-@media (max-width: 420px) {
-	.header__menu-list {
-		font-size: 0.8rem;
+	.header__phone {
+		gap: 5px;
+	}
+	.footer__btn-up {
+		display: none;
 	}
 }
